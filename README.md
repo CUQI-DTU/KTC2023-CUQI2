@@ -38,19 +38,19 @@ python main.py path/to/input/files path/to/output/files difficulty
 ## Examples
 |  Phantom 	|  Ref	| Level 1 	| Level 4 	| Level 7 	|
 |----------	|-----	|---	|---	|---	|
-|   **a**	| ![](results/01.png)	| ![](results/11.png)	|  ![](results/41.png) 	|   ![](results/71.png)	|   
-|   **b**	| ![](results/02.png)	| ![](results/12.png)	|  ![](results/42.png) 	|   ![](results/72.png)	|
-|   **c**	| ![](results/03.png)	| ![](results/13.png)	|  ![](results/43.png) 	|   ![](results/73.png)	|
-|   **d**	| ![](results/04.png)	| ![](results/14.png)	|  ![](results/44.png) 	|   ![](results/74.png)	|  
+|**a**| ![](results/01.png)	| ![](results/11.png)	|  ![](results/41.png) 	|   ![](results/71.png)	|   
+|**b**| ![](results/02.png)	| ![](results/12.png)	|  ![](results/42.png) 	|   ![](results/72.png)	|
+|**c**| ![](results/03.png)	| ![](results/13.png)	|  ![](results/43.png) 	|   ![](results/73.png)	|
+|**d**| ![](results/04.png)	| ![](results/14.png)	|  ![](results/44.png) 	|   ![](results/74.png)	|  
 
 Scores for each phantom and difficulty 1,4 and 7:
 **TODO: ADD SCORES FOR EACH ALGORITHM**
-|   Phantom	|  Ref	| Level 1 	| Level 4 	| Level 7 	|
+|   Phantom	| Level 1 	| Level 4 	| Level 7 	|
 |-----	|---	|---	|---	|
-|**a**	||||
-|**b** ||||
-|**c**	||||
-|**d**	|||||
+|**a**||
+|**b**||
+|**c**||
+|**d**||
 Scores have been computed using our own implementation of the scoring function based on scikit learn.
 
 ## License
