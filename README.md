@@ -51,6 +51,7 @@ Scores for each phantom and difficulty 1,4 and 7:
 |**b**|0.918|0.612|0.470|
 |**c**|0.934|0.918|0.888|
 |**d**|0.750|0.769|0.757|
+
 Scores have been computed using our own implementation of the scoring function based on scikit learn.
 
 ## License
