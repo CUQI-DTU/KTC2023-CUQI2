@@ -19,7 +19,7 @@ DTU: Technical University of Denmark, Department of Applied Mathematics and Comp
 **This is the otsu_sector branch**
 
 We have used the provided code for the EIT image reconstruction with the following modification:
-- Additional generalized Tikhonov regularization has been added to penalize more when close to the missing electrodes (and boundary). The regularization matrix is a diagonal matrix. For example, for difficulty level 5, the diagonal elements mapped to image space look as in the image below:
+- Additional generalized Tikhonov regularization has been added to penalize more when close to the missing electrodes (and boundary). The regularization matrix is a diagonal matrix. For example, for difficulty level 5, the diagonal elements mapped to image space look as in the image below. This regularization adds a penalty to areas of the disk based on the distance to the center, and the angle where elctrodes are removed.
 ![](results/reg1.png)
 
 ## Installation instructions
