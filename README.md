@@ -18,6 +18,7 @@ DTU: Technical University of Denmark, Department of Applied Mathematics and Comp
 ## Description of the algorithm
 
 We have used the provided code for the EIT image reconstruction with the following modification:
+- The Otsu segmentation algorithm has been replaced by the Chan-Vese segmentation algorithm from scikit-image.
 - Additional generalized Tikhonov regularization has been added to penalize more when close to the missing electrodes (and boundary). The regularization matrix is a diagonal matrix. For example, for difficulty level 5, the added pentaly can be seen in the image below. This regularization adds a penalty to areas of the disk based on the distance to the center, and the angle where elctrodes are removed.
 ![](results/reg1.png)
 
