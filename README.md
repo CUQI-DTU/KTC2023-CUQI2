@@ -18,8 +18,7 @@ DTU: Technical University of Denmark, Department of Applied Mathematics and Comp
 ## Description of the algorithm
 **TODO: Write description. This is the cv_sector branch**
 
-We have used the provided code for the EIT image reconstruction with the following modifications:
-- The Otsu segmentation algorithm has been replaced by the Chan-Vese segmentation algorithm from scikit-image.
+We have used the provided code for the EIT image reconstruction with the following modification:
 - Additional generalized Tikhonov regularization has been added to penalize more when close to the missing electrodes (and boundary). The regularization matrix is a diagonal matrix. For example, for difficulty level 5, the diagonal elements mapped to image space look as in the image below:
 ![](results/reg1.png)
 
